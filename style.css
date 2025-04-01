@@ -1,0 +1,119 @@
+html {
+  box-sizing : border-box;
+  font-family : "karla";
+  font-size : 16px;
+}
+
+body { 
+  padding : 20px;
+}
+
+h2, h4, p {
+  margin : 0
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#card {
+  width : 800px;
+  height : 400px;
+  box-shadow : -6px -7px 52px 0px rgba(0,0,0,0.46);
+  border-radius: 5px;
+  overflow : hidden;
+}
+
+#top-section {
+  width : 100%;
+  height : 45%;
+  padding : 20px;
+}
+
+#buttom-section {
+  width : 100%;
+  height : 55%;
+  display : flex;
+  color : white;
+  
+}
+
+#buttom-left-section {
+   width : 50%;
+  height : 100%;
+  padding : 20px;
+  background-color : #2ab2af 
+}
+
+#bottom-right-section { 
+  width : 50%;
+  height : 100%;
+  background-color : #2EBFBD;
+  padding : 20px;   
+}
+
+#top-section h2 {
+  margin : 10px;
+  color : #2ab2af
+}
+
+#top-section h4 {
+  margin : 10px;
+  color : #fcf403;
+}
+#top-section p{
+  margin : 10px;
+  
+  color : #94938f;
+}
+
+button {
+  color : white;
+  background-color : #fcf403;
+  border : none;
+  padding : 10px;
+  width : 100% ;
+  border-radius : 5px;
+}
+
+#price {
+  font-weight : 700;
+  font-size: 1.4rem;
+  
+}
+
+#buttom-left-section h4 {
+  margin-bottom : 20px;
+  font-size : 1.4rem;
+}
+
+#price-frequency, #price {
+  display : inline-block;
+}
+
+#price-frequency {
+  position : relative;
+  top : -3px;
+  font-size : 0.8rem;
+  opacity : 0.7px;
+  margin-left : 5px;
+}
+
+#buttom-left-section p {
+  font-size : 0.9rem;
+  margin-top: 15px; 
+  margin-bottom : 25px;
+}
+
+#bottom-right-section ul{
+ padding :0; 
+ list-style : none;
+ font-size : 0.9rem;
+ opacity: 0.7rem;
+}
+
+button:hover {
+  cursor : pointer;
+  background-color : #c7c11c;
+  transform : scale(1.05);
+}
